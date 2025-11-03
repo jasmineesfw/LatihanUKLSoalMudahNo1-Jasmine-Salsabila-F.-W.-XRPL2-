@@ -16,7 +16,7 @@ Berikut adalah kode programnya:
         double biayaVolume = 0;
         double totalBiaya;
 
-        if(jarak <= 10){
+        if(jarak <= 10) {
             biayaPerKG = 4250;
         }
         else {
