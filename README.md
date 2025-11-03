@@ -1,9 +1,12 @@
 # LatihanUKLSoalMudahNo1-Jasmine-Salsabila-F.-W.-XRPL2-
 Fungsi dari program ini adalah untuk menghitung biaya total pengiriman paket berdasarkan berat paket, jarak tempuh, dan volume paket. Lalu cara kerjanya adalah dengan cara menginputkan nilai panjang, lebar, dan tinggi oleh user.
 
-import java.util.Scanner;
-public class SoalMudahNo1 {
+Berikut adalah kode programnya:
+
+
     
+    import java.util.Scanner;
+    public class SoalMudahNo1 {
     static double volumePaket(double p, double l, double t) {
         return p * l * t;
     }
@@ -49,6 +52,6 @@ public class SoalMudahNo1 {
         System.out.println("Volume Paket = "+ v +" cm³");
         System.out.println("Total Biaya Pengiriman = Rp"+ total);
 
-        inputan.close();
+        inputan.close();    
+        }
     }
-}
