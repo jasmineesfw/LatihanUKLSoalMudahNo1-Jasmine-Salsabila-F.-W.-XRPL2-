@@ -7,6 +7,7 @@ Berikut adalah kode programnya:
     
     import java.util.Scanner;
     public class SoalMudahNo1 {
+    
     static double volumePaket(double p, double l, double t) {
         return p * l * t;
     }
